@@ -24,7 +24,7 @@
 	  when removing or changing IDs so that links to your spec don't break.
 -->
 <pre class='metadata'>
-Title: W3C Process Document
+Title: W3C Process Document 非公式日本語版
 Status: w3c/ED
 ED: https://w3c.github.io/w3process/
 TR: https://www.w3.org/Consortium/Process/
@@ -42,6 +42,9 @@ Repository: w3c/w3process
 Local Boilerplate: header yes, footer yes, status yes, logo yes, copyright yes
 Shortname: w3process
 Abstract:
+  この文書は W3C Process 文書の非公式日本語版です。正確さには万全の注意を払っていますが、プロセス上の取り扱いなど公式の際には英語版の公式文書を参照・引用してください。
+	なお、現在は2020/12/21版のスナップショットに対する初回の翻訳作業中です。完了後に最新版への追随を行っていく予定です。
+	
 	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential
 	by developing common protocols that promote its evolution and ensure its interoperability.
 	The W3C Process Document describes the organizational structure of the W3C and processes,
