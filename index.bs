@@ -24,7 +24,7 @@
 	  when removing or changing IDs so that links to your spec don't break.
 -->
 <pre class='metadata'>
-Title: W3C Process Document 非公式日本語版
+Title: W3C 手続規定 (Process Document) 非公式日本語版
 Status: w3c/ED
 ED: https://w3c.github.io/w3process/
 TR: https://www.w3.org/Consortium/Process/
@@ -44,17 +44,14 @@ Shortname: w3process
 Abstract:
   この文書は W3C Process 文書の非公式日本語版です。正確さには万全の注意を払っていますが、プロセス上の取り扱いなど公式の際には英語版の公式文書を参照・引用してください。
 	なお、現在は2020/12/21版のスナップショットに対する初回の翻訳作業中です。完了後に最新版への追随を行っていく予定です。
-	
-	The mission of the World Wide Web Consortium (<abbr>W3C</abbr>) is to lead the World Wide Web to its full potential
-	by developing common protocols that promote its evolution and ensure its interoperability.
-	The W3C Process Document describes the organizational structure of the W3C and processes,
-	responsibilities and functions that enable W3C to accomplish its mission.
-	This document does not describe the internal workings of the Team.
 
-	For more information about the W3C mission and the history of W3C,
-	please refer to <a href="https://www.w3.org/Consortium/">About W3C</a>.
+	World Word Web Consortium (<abbr>W3C</abbr>)が目指すところは、共通仕様を開発し、その進化を促進かつ相互可用性を確保することで、World Wide Web の可能性を限界まで引き出すことです。
+	W3C 手続規定では、W3C の組織構成とその手続きについて定義し、W3C が使命を遂行するための責任と権能を規定しています。
+	この文書では Team 内部の手続については規定していません。
+
+	W3C の使命と歴史についての詳細は、<a href="https://www.w3.org/Consortium/">About W3C</a> を参照してください。
 Status Text:
-	This document is based on the <a href="https://www.w3.org/2020/Process-20200915/">15 September 2020 Process</a>.
+	この文書（英語版）は<a href="https://www.w3.org/2020/Process-20200915/">2020年9月15日版手続規定</a>により策定されています。
 </pre>
 <pre class=biblio>
 {
@@ -109,7 +106,8 @@ g g:hover text {
 <!--[if lt IE 9]><script src='undefined://www.w3.org/2008/site/js/html5shiv.js'></script><![endif]-->
 
 <h2 class="no-num no-toc no-ref" id="pp">
-Relation of Process Document to Patent Policy</h2>
+手続規定と特許ポリシーの関係について
+</h2>
 
 	W3C Members' attention is called to the fact
 	that provisions of the Process Document are binding on Members
