@@ -2609,9 +2609,7 @@ The W3C Recommendation Track</h3>
 	</ol>
 
 	<div role="region" aria-label="Basic W3C Recommendation Track">
-		<pre class=include-raw>
-			path: basic-rec-track.svg
-		</pre>
+        <img src="basic-rec-track.svg" />
 	</div>
 
 	This Process defines certain [=Recommendation Track=] publications as <dfn>Patent Review Drafts</dfn>.
@@ -3687,9 +3685,7 @@ Abandoning a W3C Recommendation</h5>
 	and no new licenses are granted under the Patent Policy.
 
 	<div role="region" aria-label="Retiring a W3C Recommendation">
-		<pre class=include-raw>
-			path: retiring-rec.svg
-		</pre>
+		<img src="retiring-rec.svg" />
 	</div>
 
 <h5 id="deactivation">
