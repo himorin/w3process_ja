@@ -140,18 +140,18 @@ g g:hover text {
 <main>
 
 <h2 id="Intro">
-序論</h2>
+序章</h2>
 
-	Most W3C work revolves around the standardization of Web technologies.
-	To accomplish this work, W3C follows processes that promote the development of high-quality standards
-	based on the <a href="#Consensus">consensus</a> of the Membership, Team, and public.
-	W3C processes promote fairness, responsiveness, and progress:
-	all facets of the W3C mission.
-	This document describes the processes W3C follows in pursuit of its mission.
+	大半のW3Cの活動はウェブ技術の標準化に関係しています。
+	この活動のため、W3Cでは会員、[=Team=]、一般による<a href="#Consensus">統一見解</a>を元とした高品質な標準開発を促進可能な手続に基づいています。
+	W3C手続によりW3Cの全ての側面での公平性、敏感性、発展が促進されまs。
+	この文書ではW3Cが使命の遂行のために採用している手続を記載しています。
 
 	Here is a general overview of how W3C standardizes a Web technology.
 	In many cases, the goal of this work is a [=W3C Recommendation=]--
 	a Web standard.
+	以下にW3Cがどのようにウェブ技術を標準化しているかの概要を示します。
+	多くの場合、活動の目標は[=W3C Recommendation=] (W3C勧告) ―ウェブ標準です。
 
 	<ol>
 		<li>
