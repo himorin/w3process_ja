@@ -143,33 +143,24 @@ g g:hover text {
 序章</h2>
 
 	大半のW3Cの活動はウェブ技術の標準化に関係しています。
-	この活動のため、W3Cでは会員、[=Team=]、一般による<a href="#Consensus">統一見解</a>を元とした高品質な標準開発を促進可能な手続に基づいています。
-	W3C手続によりW3Cの全ての側面での公平性、敏感性、発展が促進されまs。
+	会員、[=Team=]、一般による<a href="#Consensus">統一見解</a>を元とした高品質な標準開発を促進可能な手続に基づいて、W3Cではこの活動を進めています。
+	W3C手続によりW3Cの全ての側面での公平性、敏感性、発展が促進されます。
 	この文書ではW3Cが使命の遂行のために採用している手続を記載しています。
 
-	Here is a general overview of how W3C standardizes a Web technology.
-	In many cases, the goal of this work is a [=W3C Recommendation=]--
-	a Web standard.
 	以下にW3Cがどのようにウェブ技術を標準化しているかの概要を示します。
 	多くの場合、活動の目標は[=W3C Recommendation=] (W3C勧告) ―ウェブ標準です。
 
 	<ol>
 		<li>
-			People generate interest in a particular topic.
-			For instance, Members express interest in the form of <a href="#Submission">Member Submissions</a>,
-			and the <a href="#Team">Team</a> monitors work inside and outside of W3C for signs of interest.
-			Also, W3C is likely to organize a <a href="#GAEvents">Workshop</a> to bring people together
-			to discuss topics that interest the W3C community.
+			特定の項目に関して興味を示す人がいます。
+			例えば、会員は<a href="#Submission">会員提案</a>形でその興味を示すことができますし、[=Team=] はW3C内外での活動を観察し興味の興りを発見します。
+			また、W3Cでは<a href="#GAEvents">ワークショップ</a>を開催しW3Cコミュニティーが興味を持ちそうな項目についてまとまって議論を行う場を企画します。
 
 		<li>
-			When there is enough interest in a topic
-			(e.g., after a successful Workshop and/or discussion on an <a href="#ACCommunication">Advisory Committee mailing list</a>),
-			the [=Team=] announces the development of a proposal
-			for one or more new <a href="#WGCharterDevelopment">Interest Group or Working Group charters</a>,
-			depending on the breadth of the topic of interest.
-			W3C Members <a href="#CharterReview">review</a> the proposed charters.
-			When there is support within W3C for investing resources in the topic of interest,
-			the Director approves the group(s) and they begin their work.
+			(成功裏に開催されたワークショップや、<a href="#ACCommunication">諮問委員会(AC)メールリスト</a>での議論を経て)十分な興味が示された項目について、
+			[=Team=]がその項目の広がりの幅に応じて一つもしくはより多くの<a href="#WGCharterDevelopment">IG (インタレストグループ)もしくはWG (ワーキンググループ)の憲章</a>案の策定開始を発表します。
+			W3C会員は検証案を<a href="#CharterReview">審査</a>します。
+			提案項目についての活動にW3C内での支持が得られた場合に、[=Director=]はグループを承認し活動が始まります。
 
 		<li>
 			There are three types of Working Group participants:
