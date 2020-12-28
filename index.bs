@@ -198,49 +198,39 @@ g g:hover text {
 <h2 id="Organization">
 会員、AC、Team、AB、TAG</h2>
 
-	W3C's mission is to lead the Web to its full potential.
-	W3C <a href="#Members">Member</a> organizations provide resources to this end,
-	and the W3C <a href="#Team">Team</a> provides the technical leadership
-	and organization to coordinate the effort.
+	W3Cの使命はウェブの可能性を限界まで引き出すことです。
+	W3Cの<a href="#Members">会員</a>団体はこの目標に向かって資源を提供し、[=Team=]は技術的指導力と活動調整の組織を提供します。
 
 <h3 id="Members">
-Members</h3>
+会員</h3>
 
-	W3C Members are primarily represented in W3C processes as follows:
+	W3C会員はW3C手続の中で次のような主要な役割を果たします：
 
 	<ol>
 		<li>
-			The <dfn export lt="Advisory Committee|AC">Advisory Committee</dfn>
-			is composed of one <dfn export lt="Advisory Committee representative| AC representative">representative</dfn>
-			from each Member organization
-			(refer to the [=Member-only=] list
-			of <a href="https://www.w3.org/Member/ACList">current Advisory Committee representatives</a>. [[CURRENT-AC]])
-			The Advisory Committee:
+			<dfn export lt="Advisory Committee|AC">AC</dfn>は会員団体それぞれから一人の<dfn export lt="Advisory Committee representative| AC representative|AC代表者">代表者</dfn>による組織です。
+			（会員限定で閲覧可能な<a href="https://www.w3.org/Member/ACList">現在のACの一覧</a> [[CURRENT-AC]] を参照ください ）
+			[=AC=]は以下を行います：
 
 			<ul>
 				<li>
-					reviews plans for W3C at each <a href="#ACMeetings">Advisory Committee meeting</a>;
+					各<a href="#ACMeetings">AC会議</a>でW3Cの方針を審査
 
 				<li>
-					reviews formal proposals from the W3C:
-					<a href="#CharterReview">Charter Proposals</a>,
-					<a href="#RecsPR">Proposed Recommendations</a>,
-					and <a href="#GAProcess">Proposed Process Documents</a>.
+					W3Cからの公式提案を審査します：
+					<a href="#CharterReview">グループ憲章案</a>、<a href="#RecsPR">勧告案</a>、<a href="#GAProcess">手続文書案</a>
 
 				<li>
-					elects the <a href="#AB">Advisory Board</a> participants other than the Advisory Board Chair.
+					議長以外の<a href="#AB">AB</a>構成員の選挙
 
 				<li>
-					elects a majority (6) of the participants on the <a href="#TAG">Technical Architecture Group</a>.
+					<a href="#TAG">技術設計グループ</a>の過半数(6)の構成員の選挙
 			</ul>
 
-			[=Advisory Committee representatives=] <em class="rfc2119" title="may">してもよい</em> initiate
-			an <a href="#ACAppeal">Advisory Committee Appeal</a> in some cases described in this document.
+			[=AC代表者=]はこの文書に規定のある場合に<a href="#ACAppeal">AC要請</a>を提議<em class="rfc2119" title="may">してもよい</em>とされています。
 
 		<li>
-			  Representatives of Member organizations participate
-			  in <a href="#GAGeneral">Working Groups and Interest Groups</a> and
-			  author and review <a href="#Reports">technical reports</a>.
+				会員団体の構成員は<a href="#GAGeneral">WGとIG</a>とその<a href="#Reports">技術報告</a>の策定と審議に参加できます。
 	</ol>
 
 	<p id="MemberSubscription">W3C membership is open to all entities,
