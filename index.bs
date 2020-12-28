@@ -42,14 +42,14 @@ Repository: w3c/w3process
 Local Boilerplate: header yes, footer yes, status yes, logo yes, copyright yes
 Shortname: w3process
 Abstract:
-  この文書は W3C Process 文書の非公式日本語版です。正確さには万全の注意を払っていますが、プロセス上の取り扱いなど公式の際には英語版の公式文書を参照・引用してください。
-	なお、現在は2020/12/21版のスナップショットに対する初回の翻訳作業中です。完了後に最新版への追随を行っていく予定です。
+  (訳注: この文書はW3C手続規定の非公式日本語版です。正確さには万全の注意を払っていますが、手続上の取り扱いなど公式の際には英語版の公式文書を参照・引用してください。
+	なお、現在は2020/12/21のスナップショットに対する初回の翻訳作業中です。完了後に最新版への追随を行っていく予定です。)
 
-	World Word Web Consortium (<abbr>W3C</abbr>)が目指すところは、共通仕様を開発し、その進化を促進かつ相互可用性を確保することで、World Wide Web の可能性を限界まで引き出すことです。
-	W3C 手続規定では、W3C の組織構成とその手続きについて定義し、W3C が使命を遂行するための責任と権能を規定しています。
-	この文書では Team 内部の手続については規定していません。
+	World Word Web Consortium (<abbr>W3C</abbr>)が目指すところは、共通仕様を開発し、その進化を促進かつ相互可用性を確保することで、World Wide Webの可能性を限界まで引き出すことです。
+	W3C手続規定では、W3Cの組織構成とその手続きについて定義し、W3Cが使命を遂行するための責任と権能を規定しています。
+	この文書では[=Team=]内部の手続については規定していません。
 
-	W3C の使命と歴史についての詳細は、<a href="https://www.w3.org/Consortium/">About W3C</a> を参照してください。
+	W3Cの使命と歴史についての詳細は、<a href="https://www.w3.org/Consortium/">About W3C</a>を参照してください。
 Status Text:
 	この文書（英語版）は<a href="https://www.w3.org/2020/Process-20200915/">2020年9月15日版手続規定</a>により策定されています。
 </pre>
@@ -115,7 +115,7 @@ g g:hover text {
 	手続規定では特許方針の項目を再掲せずそれらの項目への参照を追加する形をとっています。
 	手続規定と特許方針は独立に更新可能なように設計されています。
 
-	手続規定では、"参加者"により組織でなく個人を指しています。
+	手続規定では、"参加者"は組織でなく個人を指しています。
 
 <h2 class="no-num no-toc no-ref" id=terms>
 準拠元もしくは特別な用語</h2>
@@ -130,7 +130,7 @@ g g:hover text {
 	(訳注: 前述で各カッコ内は公式版の英語での用語です。本文中では<em title="カーソルを載せると英語での用語が出ます">強調表示</em>となっています。)
 	また、<dfn id="not-required" noexport><em class="rfc2119" title="not required">必須ではない (NOT REQUIRED)</em></dfn>
 	の単語はRFC2119 [[!RFC2119]] での<em class="rfc2119" title="may">してもよい</em>と同義と定義しています。
-	(訳注: なお、これらの各用語は日本語訳本文中では前ぼの文脈に従い、接続の変化が加えられて利用されていることがありますが、<em>強調表示</em>部分は対応するRFC2119の英語での定義と理解してください。)
+	(訳注: なお、これらの各用語は日本語訳本文中では前ぼの文脈に従い、接続の変化が加えられて利用されていることがありますが、<em>強調表示</em>部分は対応する[[!RFC2119]]の英語での定義と理解してください。)
 
 	いくつかの単語はこの文書（とほかのW3Cの文書）の中で大文字始まりの表記となっており、W3C手続の中で特別な意味を持つ用法であることを示します。
 	それらの単語はこの文書により定義されており、英単語としての意味はこの文書を理解する上では不適当である場合があることに留意してください。
@@ -153,7 +153,7 @@ g g:hover text {
 	<ol>
 		<li>
 			特定の項目に関して興味を示す人がいます。
-			例えば、会員は<a href="#Submission">会員提案</a>形でその興味を示すことができますし、[=Team=] はW3C内外での活動を観察し興味の興りを発見します。
+			例えば、会員は<a href="#Submission">会員提案</a>の形でその興味を示すことができますし、[=Team=] はW3C内外での活動を観察し興味の興りを発見します。
 			また、W3Cでは<a href="#GAEvents">ワークショップ</a>を開催しW3Cコミュニティーが興味を持ちそうな項目についてまとまって議論を行う場を企画します。
 
 		<li>
@@ -163,60 +163,40 @@ g g:hover text {
 			提案項目についての活動にW3C内での支持が得られた場合に、[=Director=]はグループを承認し活動が始まります。
 
 		<li>
-			There are three types of Working Group participants:
-			<a href="#member-rep">Member representatives</a>,
-			<a href="#invited-expert-wg">Invited Experts</a>,
-			and <a href="#Team">Team representatives</a>.
-			Team representatives both contribute to the technical work
-			and help ensure the group's proper integration with the rest of W3C.
-			The <a href="#WGCharter">Working Group charter</a> sets expectations about each group's deliverables
-			(e.g., <a href="#Reports">technical reports</a>, test suites, and tutorials).
+			ワーキンググループ(WG)参加者には３種類あります:
+			<a href="#member-rep">会員からの参加者</a>、
+			<a href="#invited-expert-wg">Invited Experts (招待された専門家)</a>、
+			<a href="#Team">Teamの参加者</a>です。
+			Teamの参加者は技術的作業に加えグループが他のW3C関係と適切な関係を築けるように活動します。
+			<a href="#WGCharter">ワーキンググループ憲章</a>はそれぞれのグループから期待される成果物(<a href="#Reports">技術報告</a>、試験項目群、学習教材など)を規定します。
 
 		<li>
-			Working Groups generally create specifications and guidelines
-			that undergo cycles of revision and review
-			as they <a href="#rec-advance">advance to W3C Recommendation</a> status.
-			The W3C process for producing these technical reports
-			includes significant review by the Members and public,
-			and requirements that the Working Group be able to show implementation and interoperability experience.
-			At the end of the process,
-			the Advisory Committee reviews the mature technical report,
-			and if there is support,
-			W3C publishes it as a <a href="#RecsW3C">Recommendation</a>.
+			ワーキンググループは通常、<a href="#rec-advance">W3C勧告化をめざし</a>更新とレビューを繰り返して仕様と指針を策定します。
+			それらの技術報告の策定についてW3C手続では、会員及び一般からの重要なレビューについてやワーキンググループが実装や相互可用性を示すための要件を定義しています。
+			手続の最終段階ではACが完成した技術報告をレビューし、支持があればW3Cは<a href="#RecsW3C">勧告</a>として発行します。
 	</ol>
 
-	The Process Document promotes the goals of quality and fairness in technical decisions
-	by encouraging <a href="#Consensus">consensus</a>,
-	requiring reviews (by both Members and public) as part of the <a href="#Reports">technical report development process</a>,
-	and through an <a href="#ACAppeal">Advisory Committee Appeal process</a>.
+	手続規定では、<a href="#Consensus">合意形成</a>を推奨し、<a href="#Reports">技術報告策定手続</a>の一部として(会員と一般の双方からの)レビューを要請し、そして<a href="#ACAppeal">AC要請</a>を含めた、技術報告における品質と公平性の目標を推奨しています。
 
-	The other sections of the Process Document:
+	手続規定の中では:
 
 	<ol>
 		<li>
-			set forth <a href="#Policies">policies</a> for participation in W3C groups,
+			W3Cのグループへの参加者向けの<a href="#Policies">規約</a>を記述します
 
 		<li>
-			establish two permanent groups within W3C:
-			the <a href="#TAG">Technical Architecture Group (TAG)</a>,
-			to help resolve Consortium-wide technical issues;
-			and the <a href="#AB">Advisory Board (AB)</a>,
-			to help resolve Consortium-wide non-technical issues,
-			and to manage the <a href="#GAProcess">evolution of the W3C process</a>,
-			and
+			W3Cでの2つの常置グループを規定します：
+			W3C全体にわたる技術的問題の解決の手助けを扱う<a href="#TAG">技術設計グループ (TAG)</a>、
+			W3C全体にわたる技術的以外の問題の解決の手助けと<a href="#GAProcess">W3C手続の発展</a>を扱う<a href="#AB">Advisory Board (AB)</a>
 
 		<li>
-			describe other interactions between the <a href="#Members">Members</a>
-			(as represented by the <a href="#AC">W3C Advisory Committee</a>),
-			the Team,
-			and the general public.
+			(<a href="#AC">W3C AC</a>により代表される)<a href="#Members">会員</a>、[=Team=]、一般との間でのその他のやり取りを記述します
 	</ol>
 
-	W3C also operates Community and Business Groups,
-	which are separately described in <a href="https://www.w3.org/community/about/agreements/">their own process document</a> [[BG-CG]].
+	また、W3CではCG (コミュニティーグループ)とBG (ビジネスグループ)を運営しており、<a href="https://www.w3.org/community/about/agreements/">それらグループの手続文書</a> [[BG-CG]]に規定されています。
 
 <h2 id="Organization">
-Members, Advisory Committee, Team, Advisory Board, Technical Architecture Group</h2>
+会員、AC、Team、AB、TAG</h2>
 
 	W3C's mission is to lead the Web to its full potential.
 	W3C <a href="#Members">Member</a> organizations provide resources to this end,
