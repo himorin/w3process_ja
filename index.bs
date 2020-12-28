@@ -233,74 +233,60 @@ g g:hover text {
 				会員団体の構成員は<a href="#GAGeneral">WGとIG</a>とその<a href="#Reports">技術報告</a>の策定と審議に参加できます。
 	</ol>
 
-	<p id="MemberSubscription">W3C membership is open to all entities,
-	as described in “<a href="https://www.w3.org/Consortium/join">How to Join W3C</a>” [[JOIN]];
-	(refer to the public list of <a href="https://www.w3.org/Consortium/Member/List">current W3C Members</a> [[MEMBER-LIST]]).
-	Organizations subscribe according to the <a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">Membership Agreement</a> [[MEMBER-AGREEMENT]].
-	The <a href="#Team">Team</a> <em class="rfc2119" title="must">しなければならない</em> ensure
-	that Member participation agreements remain <a href="#Team-only">Team-only</a>
-	and that no Member receives preferential treatment within W3C.
+	<p id="MemberSubscription">
+	“<a href="https://www.w3.org/Consortium/join">W3C会員になるには</a>” [[JOIN]] にあるようにW3C会員にはどの団体でも加入可能です。
+	(<a href="https://www.w3.org/Consortium/Member/List">現在のW3C会員</a>一覧 [[MEMBER-LIST]] の公開リストを参照してください。)
+	団体としての加入は<a href="https://www.w3.org/Consortium/Agreement/Member-Agreement">会員規約</a> [[MEMBER-AGREEMENT]] に拠ります。
+	[=Team=] は、各会員の加入契約を<a href="#Team-only">Team 内限定</a>とし、W3C内でどの会員も先取権を得ることがないように<em class="rfc2119" title="must">しなければなり</em>ません。
 
-	<p id="IndividualParticipation">While W3C does not have a class of membership tailored to individuals,
-	individuals <em class="rfc2119" title="may">してもよい</em> join W3C.
-	Restrictions pertaining to <a href="#MemberRelated">related Members</a> apply
-	when the individual also <a href="#member-rep">represents</a> another W3C Member.
+	<p id="IndividualParticipation">
+	W3Cとして個人の段階までの会員資格は定めていませんが、W3Cに個人として参加<em class="rfc2119" title="may">してもよい</em>となっています。
+	<a href="#MemberRelated">支配関係にある会員団体</a>についての制約は個人が他のW3C会員<a href="#member-rep">として参加する</a>場合にも適用されます。
 
 <h4 id="MemberBenefits">
-Rights of Members</h4>
+会員の権利</h4>
 
-	Each Member organization enjoys the following rights and benefits:
-
-	<ul>
-		<li>
-			A seat on the <a href="#AC">Advisory Committee</a>;
-
-		<li>
-			Access to <a href="#Member-only">Member-only</a> information;
-
-		<li>
-			The <a href="#Submission">Member Submission</a> process;
-
-		<li>
-			Use of the W3C Member logo on promotional material and to publicize the Member's participation in W3C.
-			For more information, please refer to the Member logo usage policy
-			described in the <a href="https://www.w3.org/Member/Intro">New Member Orientation</a> [[INTRO]].
-	</ul>
-
-	Furthermore, subject to further restrictions included in the Member Agreement,
-	representatives of Member organizations participate in W3C as follows:
+	各会員団体は以下の権利と特典を得ます：
 
 	<ul>
 		<li>
-			In <a href="#GAGeneral">Working Groups and Interest Groups</a>.
+			<a href="#AC">AC</a>への1名の参加;
 
 		<li>
-			In <a href="#GAEvents">Workshops and Symposia</a>;
+			<a href="#Member-only">会員限定</a>情報の閲覧;
 
 		<li>
-			On the Team, as <a href="#fellows">W3C Fellows</a>.
+			<a href="#Submission">会員提案</a>を行う;
+
+		<li>
+			W3C会員ロゴを広報資料やW3C会員団体であることを示す為に利用すること。
+			詳細については、<a href="https://www.w3.org/Member/Intro">新会員</a> [[INTRO]] 向け資料のロゴ利用規定を参照ください。
 	</ul>
 
-	The rights and benefits of W3C membership [[MEMBER-AGREEMENT]]
-	are contingent upon conformance to the processes described in this document.
-	Disciplinary action for anyone participating in W3C activities is described in [[#discipline]].
+	加えて、会員規約に規定される追加の制約により、会員団体からの参加者は以下のようにW3Cに参加します：
+
+	<ul>
+		<li>
+			<a href="#GAGeneral">WGとIG</a>
+
+		<li>
+			In <a href="#GAEvents">ワークショップとシンポジウム</a>
+
+		<li>
+		  <a href="#fellows">W3Cフェロー</a>として[=Team=]に
+	</ul>
+
+	W3C会員 [[MEMBER-AGREEMENT]] の権利と特典はこの文書に規定の手続に準拠していることを条件に適用されます。
+	W3C参加者の活動に対する懲戒手続は[[#discipline]]に規定されます。
 
 <h4 id="RelatedAndConsortiumMembers">
-Member Consortia and Related Members</h4>
+会員連合 (Membership Consortia) と関連する会員 (Related Members)</h4>
 
 <h5 id="MemberConsortia">
-Membership Consortia</h5>
+会員連合 (Membership Consortia)</h5>
 
-	A “<dfn id=fdn-member-consortium lt="Member Consortium | Member Consortia">Member Consortium</dfn>” means a consortium,
-	user society,
-	or association of two or more individuals,
-	companies,
-	organizations or governments,
-	or any combination of these entities
-	which has the purpose of participating in a common activity
-	or pooling resources to achieve a common goal other than participation in,
-	or achieving certain goals in,
-	W3C.
+	共通した活動・W3C加入以外の共通目的に対する資源の共有・W3Cでの特定の目標の推進を目的とした、
+	コンソーシアム、ユーザ連合、2つ以上の個人・会社・組織・政府やそれらの組み合わせによる連合を意味します。
 	A joint-stock corporation or similar entity is not a [=Member Consortium=]
 	merely because it has shareholders or stockholders.
 	If it is not clear whether a prospective Member qualifies as a [=Member Consortium=],
